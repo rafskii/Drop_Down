@@ -1,0 +1,50 @@
+.wrap {
+    width: 300px;
+    margin: 50px auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.dropdown , .menu a {
+    background-color: rgba(241,240,179,0.6);
+    cursor: pointer;
+    display: block;
+    width: 300px;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu a {
+    text-decoration: none;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: left;
+}
+
+.menu {
+    display: none;
+}
+
+
+.wrap:hover .menu {
+    display: block;
+}
+
+.dropdown:hover , .menu a:hover {
+    background-color: rgba(241,240,179,0.9);
+    color: rgb(244,104,93);
+    border-left: solid;
+    border-color: rgb(244,104,93);
+}
+
+.dropdown i {
+    margin-right: 20px;
+}
+
+.menu i {
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
