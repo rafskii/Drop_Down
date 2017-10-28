@@ -51,18 +51,3 @@
     margin-right: 30px;
 }
 
-.menu2 {
-    display: none;
-}
-
-.wrap2:hover .menu2 {
-    display: block;
-    float: right;
-}
-
-.menu2 a:hover {
-    background-color: rgba(241,240,179,0.9);
-    color: rgb(244,104,93);
-    border-left: solid;
-    border-color: rgb(244,104,93);
-}
