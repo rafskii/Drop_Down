@@ -14,6 +14,7 @@
     color: black;
     padding: 10px;
     border-radius: 5px;
+    transition: all 0.5s;
 }
 
 .menu a {
@@ -25,14 +26,16 @@
 
 .menu {
     display: none;
+
 }
 
 
 .wrap:hover .menu {
     display: block;
+
 }
 
-.dropdown:hover , .menu a:hover {
+.dropdown:hover , .amenu:hover {
     background-color: rgba(241,240,179,0.9);
     color: rgb(244,104,93);
     border-left: solid;
@@ -48,3 +51,18 @@
     margin-right: 30px;
 }
 
+.menu2 {
+    display: none;
+}
+
+.wrap2:hover .menu2 {
+    display: block;
+    float: right;
+}
+
+.menu2 a:hover {
+    background-color: rgba(241,240,179,0.9);
+    color: rgb(244,104,93);
+    border-left: solid;
+    border-color: rgb(244,104,93);
+}
